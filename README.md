@@ -2,7 +2,7 @@
     
     -- A Statechart Framework for Sproutcore
 
-#Overview
+# Overview
 
 Ki is a statechart framework that supports:
 
@@ -16,7 +16,7 @@ Ki is a statechart framework that supports:
   
 The framework's design was closely based on David Harel's original paper ["Statecharts: A Visual Formalism For Complex Systems"](http://www.wisdom.weizmann.ac.il/~harel/papers/Statecharts.pdf).
 
-#Why Use Statecharts?
+# Why Use Statecharts?
 
 In most applications that react to external and internal asynchronous events, some form of states are used to 
 help manage when an action can respond to those incoming events. Usually these states are represented as kinds of
@@ -33,7 +33,7 @@ The problem with states that are built as such are the following:
   
 Ki resolves these issues and thereby helps make your state logic more maintainable, testable, and easier to analyze. 
 
-#Some Background on Statecharts
+# Some Background on Statecharts
 
 David Harel originally developed the idea of statecharts back in the early 80s while working on a complex application for the 
 Israel Aircraft Industries. Given the complexity of the system and the vast number of events the system had
@@ -66,7 +66,7 @@ were not experts of statecharts.
 For more information about the history of statecharts, please refer to Harel's paper ["Statecharts in the Making: 
 A Personal Account"](http://www.wisdom.weizmann.ac.il/~harel/papers/Statecharts.History.pdf).
 
-#Adding Ki to Your SproutCore Project
+# Adding Ki to Your SproutCore Project
 
 To add Ki to your SproutCore project, start by acquiring the framework from github:
 
@@ -81,7 +81,7 @@ Once acquired, you then need to update your project's `Buildfile` file. This can
   
 Congrats! You're now on your way to using Ki.
 
-#Getting Started
+# Getting Started
 
 If you're new to Ki or just want information to help you apply statecharts to your app, then refer to the 
 [Ki wiki](http://github.com/FrozenCanuck/Ki/wiki).
